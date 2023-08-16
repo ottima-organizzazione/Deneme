@@ -1,0 +1,17 @@
+C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Infrastrucute\Deneme.Persistence\bin\Debug\net6.0\Deneme.Persistence.deps.json
+C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Infrastrucute\Deneme.Persistence\bin\Debug\net6.0\Deneme.Persistence.dll
+C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Infrastrucute\Deneme.Persistence\bin\Debug\net6.0\Deneme.Persistence.pdb
+C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Infrastrucute\Deneme.Persistence\bin\Debug\net6.0\Deneme.Application.dll
+C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Infrastrucute\Deneme.Persistence\bin\Debug\net6.0\Deneme.Domain.dll
+C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Infrastrucute\Deneme.Persistence\bin\Debug\net6.0\Deneme.Application.pdb
+C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Infrastrucute\Deneme.Persistence\bin\Debug\net6.0\Deneme.Domain.pdb
+C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Infrastrucute\Deneme.Persistence\obj\Debug\net6.0\Deneme.Persistence.csproj.AssemblyReference.cache
+C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Infrastrucute\Deneme.Persistence\obj\Debug\net6.0\Deneme.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Infrastrucute\Deneme.Persistence\obj\Debug\net6.0\Deneme.Persistence.AssemblyInfoInputs.cache
+C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Infrastrucute\Deneme.Persistence\obj\Debug\net6.0\Deneme.Persistence.AssemblyInfo.cs
+C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Infrastrucute\Deneme.Persistence\obj\Debug\net6.0\Deneme.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Infrastrucute\Deneme.Persistence\obj\Debug\net6.0\Deneme.Persistence.csproj.CopyComplete
+C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Infrastrucute\Deneme.Persistence\obj\Debug\net6.0\Deneme.Persistence.dll
+C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Infrastrucute\Deneme.Persistence\obj\Debug\net6.0\refint\Deneme.Persistence.dll
+C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Infrastrucute\Deneme.Persistence\obj\Debug\net6.0\Deneme.Persistence.pdb
+C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Infrastrucute\Deneme.Persistence\obj\Debug\net6.0\ref\Deneme.Persistence.dll

@@ -1,0 +1,11 @@
+C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Core\Deneme.Domain\bin\Debug\net6.0\Deneme.Domain.deps.json
+C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Core\Deneme.Domain\bin\Debug\net6.0\Deneme.Domain.dll
+C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Core\Deneme.Domain\bin\Debug\net6.0\Deneme.Domain.pdb
+C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Core\Deneme.Domain\obj\Debug\net6.0\Deneme.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Core\Deneme.Domain\obj\Debug\net6.0\Deneme.Domain.AssemblyInfoInputs.cache
+C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Core\Deneme.Domain\obj\Debug\net6.0\Deneme.Domain.AssemblyInfo.cs
+C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Core\Deneme.Domain\obj\Debug\net6.0\Deneme.Domain.csproj.CoreCompileInputs.cache
+C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Core\Deneme.Domain\obj\Debug\net6.0\Deneme.Domain.dll
+C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Core\Deneme.Domain\obj\Debug\net6.0\refint\Deneme.Domain.dll
+C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Core\Deneme.Domain\obj\Debug\net6.0\Deneme.Domain.pdb
+C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Core\Deneme.Domain\obj\Debug\net6.0\ref\Deneme.Domain.dll
