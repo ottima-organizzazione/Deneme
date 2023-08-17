@@ -1548,8 +1548,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Application\\Deneme.Application.csproj": {
-              "projectPath": "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Application\\Deneme.Application.csproj"
+            "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Application\\Deneme.Application.csproj": {
+              "projectPath": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Application\\Deneme.Application.csproj"
             },
             "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Infrastrucute\\Deneme.Persistence\\Deneme.Persistence.csproj": {
               "projectPath": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Infrastrucute\\Deneme.Persistence\\Deneme.Persistence.csproj"
