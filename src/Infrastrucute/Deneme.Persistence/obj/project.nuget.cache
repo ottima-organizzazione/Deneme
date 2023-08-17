@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wP2FOAFBCQzZZPd0D5z5/rM7SxV2XDob5AKR4PuzW156/NBomRhA6XLYTyu6pU5rHAFJ3A5ZEGpa19B6MXrMOg==",
+  "dgSpecHash": "hx0jF+tAIND/zVmH9BLbTC/fGt4I5UghbW0gRozDFmZIfMvKoxur5VAyUjQxILp/Piw2E1A/poCdMuGC2CuBNQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Infrastrucute\\Deneme.Persistence\\Deneme.Persistence.csproj",
+  "projectFilePath": "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Infrastrucute\\Deneme.Persistence\\Deneme.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cicek\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.10\\microsoft.entityframeworkcore.7.0.10.nupkg.sha512",
     "C:\\Users\\cicek\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.10\\microsoft.entityframeworkcore.abstractions.7.0.10.nupkg.sha512",

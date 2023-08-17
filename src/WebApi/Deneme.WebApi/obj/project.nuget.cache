@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pwiesrC/QZ29PHNN2iuEBX8w87FsWvlZdmBQQZ4J2mXWZTms+5M+3E3jWKrZxT8TWT6U9FKymgez5yMll67Tnw==",
+  "dgSpecHash": "rq6KipIKVG3cKrYRx8io2YF6Ed6L2g6YRNboQICpkl1lSazIXqWsrKl0cCZjiHcPJ/E4cqn/WVQyr7Cqe2zSdQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\WebApi\\Deneme.WebApi\\Deneme.WebApi.csproj",
+  "projectFilePath": "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\WebApi\\Deneme.WebApi\\Deneme.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cicek\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\cicek\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.10\\microsoft.entityframeworkcore.7.0.10.nupkg.sha512",
