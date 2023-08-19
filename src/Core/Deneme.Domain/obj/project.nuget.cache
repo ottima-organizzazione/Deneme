@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fw4fvi65rQfLNmno3AZPgGcJGpxuTS1PEJIRNW5LLD6N2u8lLs4921I2TpHeO5YZ5Msv+rzB4UBYiZvbsErpcA==",
+  "dgSpecHash": "BRB8eJDys/wrqpYxSWmf0Oxa5ebIMKMOtMePJUYiIoOphzZ5PucE/w2X+zCqHgDeG1U2SVkoqYu/eqAfDbKUjA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Domain\\Deneme.Domain.csproj",
+  "projectFilePath": "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Domain\\Deneme.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
