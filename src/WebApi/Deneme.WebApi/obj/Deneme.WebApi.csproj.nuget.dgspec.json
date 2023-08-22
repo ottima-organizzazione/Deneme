@@ -32,7 +32,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Domain\\Deneme.Domain.csproj": {
+                "projectPath": "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Domain\\Deneme.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
