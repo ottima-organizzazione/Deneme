@@ -9,3 +9,7 @@ C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Core\Deneme.Applicatio
 C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Core\Deneme.Application\obj\Debug\net6.0\refint\Deneme.Application.dll
 C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Core\Deneme.Application\obj\Debug\net6.0\Deneme.Application.pdb
 C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Core\Deneme.Application\obj\Debug\net6.0\ref\Deneme.Application.dll
+C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Core\Deneme.Application\bin\Debug\net6.0\Deneme.Domain.dll
+C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Core\Deneme.Application\bin\Debug\net6.0\Deneme.Domain.pdb
+C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Core\Deneme.Application\obj\Debug\net6.0\Deneme.Application.csproj.AssemblyReference.cache
+C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\Core\Deneme.Application\obj\Debug\net6.0\Deneme.Application.csproj.CopyComplete

@@ -1,5 +1,6 @@
 ﻿using Deneme.Application.Dtos;
 using Deneme.Domain.Entities;
+using Deneme.Infrastrucute.Services.ProductService;
 using Microsoft.AspNetCore.Mvc;
 using Persistance.Context;
 
@@ -10,16 +11,18 @@ namespace Deneme.WebApi.Controllers
     public class ProductController : Controller
     {
         private readonly AppDbContext _context;
+        private readonly IProductService _productService;
 
-        public ProductController(AppDbContext context)
+        public ProductController(AppDbContext context, IProductService productService)
         {
             _context = context;
+            _productService = productService;
         }
 
         [HttpGet("GetProductList")]
-        public List<Product> GetProducts()
+        public Task<List<Product>> GetProducts()
         {
-            var products = _context.Products.ToList();
+            var products = _productService.GetProductList();
 
             return products;
         }
@@ -27,7 +30,7 @@ namespace Deneme.WebApi.Controllers
         [HttpGet]
         public IActionResult GetProduct(int id)
         {
-            var data = _context.Products.FirstOrDefault(p => p.Id == id);
+            var data = _productService.GetProductById(id);
 
             if (data == null)
             {
@@ -40,23 +43,7 @@ namespace Deneme.WebApi.Controllers
         [HttpPost]
         public IActionResult CreateProduct([FromBody] ProductRequest product)
         {
-            if (product == null)
-            {
-                return BadRequest();
-            }
-
-            var entity = new Product()
-            {
-                Sku = product.Sku,
-                Name = product.Name,
-                Description = product.Description,
-                Price = product.Price,
-                StockCount = product.StockCount,
-
-            };
-
-            Product response = _context.Add(entity).Entity;
-            _context.SaveChanges();
+            Task<Product> response = _productService.InsertProduct(product);
 
             return Ok(response);
         }
@@ -64,38 +51,23 @@ namespace Deneme.WebApi.Controllers
         [HttpPut]
         public IActionResult UpdateProduct([FromBody] UpdateRequest product)
         {
-            var data = _context.Set<Product>().FirstOrDefault(p => p.Id == product.Id);
 
-            if (data == null)
-            {
-                return NotFound();
-            }
-
-            data.Price = product.Price;
-            data.StockCount = product.StockCount;
-            data.UpdatedDate = DateTime.UtcNow;
-
-            Product response = _context.Update(data).Entity;
-            _context.SaveChanges();
+            Task<Product> response = _productService.UpdateProduct(product);
 
             return Ok(response);
 
         }
 
         [HttpDelete]
-        public IActionResult DeleteProduct([FromQuery] int Id) {
+        public IActionResult DeleteProduct([FromQuery] int Id)
+        {
 
-            var data = _context.Set<Product>().FirstOrDefault(p => p.Id == Id);
+            Task<bool> data = _productService.DeleteProduct(Id);
 
-            if (data == null)
+            if (data.IsFaulted)
             {
                 return NotFound();
             }
-            data.IsActive = false;
-
-            _context.Update(data);
-            _context.SaveChanges();
-
             return Ok();
 
 

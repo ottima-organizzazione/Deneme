@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Application\\Deneme.Application.csproj",
+      "projectUniqueName": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Application\\Deneme.Application.csproj",
       "projectName": "Deneme.Application",
-      "projectPath": "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Application\\Deneme.Application.csproj",
+      "projectPath": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Application\\Deneme.Application.csproj",
       "packagesPath": "C:\\Users\\cicek\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Application\\obj\\",
+      "outputPath": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -59,8 +59,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Domain\\Deneme.Domain.csproj": {
-              "projectPath": "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Domain\\Deneme.Domain.csproj"
+            "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Domain\\Deneme.Domain.csproj": {
+              "projectPath": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Domain\\Deneme.Domain.csproj"
             }
           }
         }

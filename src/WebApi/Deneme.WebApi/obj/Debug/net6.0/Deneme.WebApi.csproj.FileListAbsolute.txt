@@ -58,3 +58,5 @@ C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\WebApi\Deneme.WebApi\b
 C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\WebApi\Deneme.WebApi\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\WebApi\Deneme.WebApi\bin\Debug\net6.0\System.Text.Json.dll
 C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\WebApi\Deneme.WebApi\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\WebApi\Deneme.WebApi\bin\Debug\net6.0\Deneme.Infrastrucute.dll
+C:\Users\cicek\Desktop\ferhat\helloWorld\Ortak\Deneme\src\WebApi\Deneme.WebApi\bin\Debug\net6.0\Deneme.Infrastrucute.pdb
