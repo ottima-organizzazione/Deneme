@@ -1,10 +1,12 @@
 ﻿using Deneme.Application.Interfaces.Repositories;
 using Deneme.Domain.Common;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Persistance.Context;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -35,9 +37,9 @@ namespace Deneme.Persistence.Repositories
 
         }
 
-        public Task<List<TEntity>> GetAll()
+        public Task<List<TEntity>> GetAll(Expression<Func<TEntity, bool>> predicate)
         {
-            List<TEntity> Entities = _appDbContext.Set<TEntity>().ToList();
+            List<TEntity> Entities = _appDbContext.Set<TEntity>().Where(predicate).ToList();
 
             return Task.FromResult(Entities);
         }

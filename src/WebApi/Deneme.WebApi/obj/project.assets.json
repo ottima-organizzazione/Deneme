@@ -522,6 +522,20 @@
           "bin/placeholder/Deneme.Domain.dll": {}
         }
       },
+      "Deneme.Infrastrucute/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Deneme.Domain": "1.0.0",
+          "Deneme.Persistence": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Deneme.Infrastrucute.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Deneme.Infrastrucute.dll": {}
+        }
+      },
       "Deneme.Persistence/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1504,6 +1518,11 @@
       "path": "../../Core/Deneme.Domain/Deneme.Domain.csproj",
       "msbuildProject": "../../Core/Deneme.Domain/Deneme.Domain.csproj"
     },
+    "Deneme.Infrastrucute/1.0.0": {
+      "type": "project",
+      "path": "../../../Deneme.Infrastrucute/Deneme.Infrastrucute.csproj",
+      "msbuildProject": "../../../Deneme.Infrastrucute/Deneme.Infrastrucute.csproj"
+    },
     "Deneme.Persistence/1.0.0": {
       "type": "project",
       "path": "../../Infrastrucute/Deneme.Persistence/Deneme.Persistence.csproj",
@@ -1513,6 +1532,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Deneme.Application >= 1.0.0",
+      "Deneme.Infrastrucute >= 1.0.0",
       "Deneme.Persistence >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.10",
       "Swashbuckle.AspNetCore >= 6.5.0"
@@ -1525,11 +1545,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\WebApi\\Deneme.WebApi\\Deneme.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\WebApi\\Deneme.WebApi\\Deneme.WebApi.csproj",
       "projectName": "Deneme.WebApi",
-      "projectPath": "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\WebApi\\Deneme.WebApi\\Deneme.WebApi.csproj",
+      "projectPath": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\WebApi\\Deneme.WebApi\\Deneme.WebApi.csproj",
       "packagesPath": "C:\\Users\\cicek\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\WebApi\\Deneme.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\WebApi\\Deneme.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1551,11 +1571,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Application\\Deneme.Application.csproj": {
-              "projectPath": "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Application\\Deneme.Application.csproj"
+            "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\Deneme.Infrastrucute\\Deneme.Infrastrucute.csproj": {
+              "projectPath": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\Deneme.Infrastrucute\\Deneme.Infrastrucute.csproj"
             },
-            "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Infrastrucute\\Deneme.Persistence\\Deneme.Persistence.csproj": {
-              "projectPath": "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Infrastrucute\\Deneme.Persistence\\Deneme.Persistence.csproj"
+            "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Application\\Deneme.Application.csproj": {
+              "projectPath": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Application\\Deneme.Application.csproj"
+            },
+            "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Infrastrucute\\Deneme.Persistence\\Deneme.Persistence.csproj": {
+              "projectPath": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Infrastrucute\\Deneme.Persistence\\Deneme.Persistence.csproj"
             }
           }
         }

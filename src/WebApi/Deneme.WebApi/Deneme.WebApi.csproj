@@ -12,6 +12,7 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Deneme.Infrastrucute\Deneme.Infrastrucute.csproj" />
     <ProjectReference Include="..\..\Infrastrucute\Deneme.Persistence\Deneme.Persistence.csproj" />
     <ProjectReference Include="..\..\Core\Deneme.Application\Deneme.Application.csproj" />
   </ItemGroup>

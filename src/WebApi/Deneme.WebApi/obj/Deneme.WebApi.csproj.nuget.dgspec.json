@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\WebApi\\Deneme.WebApi\\Deneme.WebApi.csproj": {}
+    "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\WebApi\\Deneme.WebApi\\Deneme.WebApi.csproj": {}
   },
   "projects": {
-    "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Application\\Deneme.Application.csproj": {
+    "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\Deneme.Infrastrucute\\Deneme.Infrastrucute.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Application\\Deneme.Application.csproj",
-        "projectName": "Deneme.Application",
-        "projectPath": "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Application\\Deneme.Application.csproj",
+        "projectUniqueName": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\Deneme.Infrastrucute\\Deneme.Infrastrucute.csproj",
+        "projectName": "Deneme.Infrastrucute",
+        "projectPath": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\Deneme.Infrastrucute\\Deneme.Infrastrucute.csproj",
         "packagesPath": "C:\\Users\\cicek\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Application\\obj\\",
+        "outputPath": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\Deneme.Infrastrucute\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Domain\\Deneme.Domain.csproj": {
-                "projectPath": "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Domain\\Deneme.Domain.csproj"
+              "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Domain\\Deneme.Domain.csproj": {
+                "projectPath": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Domain\\Deneme.Domain.csproj"
+              },
+              "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Infrastrucute\\Deneme.Persistence\\Deneme.Persistence.csproj": {
+                "projectPath": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Infrastrucute\\Deneme.Persistence\\Deneme.Persistence.csproj"
               }
             }
           }
@@ -68,14 +71,78 @@
         }
       }
     },
-    "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Domain\\Deneme.Domain.csproj": {
+    "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Application\\Deneme.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Domain\\Deneme.Domain.csproj",
-        "projectName": "Deneme.Domain",
-        "projectPath": "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Domain\\Deneme.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Application\\Deneme.Application.csproj",
+        "projectName": "Deneme.Application",
+        "projectPath": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Application\\Deneme.Application.csproj",
         "packagesPath": "C:\\Users\\cicek\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Domain\\obj\\",
+        "outputPath": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cicek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Domain\\Deneme.Domain.csproj": {
+                "projectPath": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Domain\\Deneme.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Domain\\Deneme.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Domain\\Deneme.Domain.csproj",
+        "projectName": "Deneme.Domain",
+        "projectPath": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Domain\\Deneme.Domain.csproj",
+        "packagesPath": "C:\\Users\\cicek\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -128,14 +195,14 @@
         }
       }
     },
-    "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Infrastrucute\\Deneme.Persistence\\Deneme.Persistence.csproj": {
+    "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Infrastrucute\\Deneme.Persistence\\Deneme.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Infrastrucute\\Deneme.Persistence\\Deneme.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Infrastrucute\\Deneme.Persistence\\Deneme.Persistence.csproj",
         "projectName": "Deneme.Persistence",
-        "projectPath": "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Infrastrucute\\Deneme.Persistence\\Deneme.Persistence.csproj",
+        "projectPath": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Infrastrucute\\Deneme.Persistence\\Deneme.Persistence.csproj",
         "packagesPath": "C:\\Users\\cicek\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Infrastrucute\\Deneme.Persistence\\obj\\",
+        "outputPath": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Infrastrucute\\Deneme.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -157,11 +224,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Application\\Deneme.Application.csproj": {
-                "projectPath": "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Application\\Deneme.Application.csproj"
+              "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Application\\Deneme.Application.csproj": {
+                "projectPath": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Application\\Deneme.Application.csproj"
               },
-              "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Domain\\Deneme.Domain.csproj": {
-                "projectPath": "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Domain\\Deneme.Domain.csproj"
+              "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Domain\\Deneme.Domain.csproj": {
+                "projectPath": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Domain\\Deneme.Domain.csproj"
               }
             }
           }
@@ -205,14 +272,14 @@
         }
       }
     },
-    "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\WebApi\\Deneme.WebApi\\Deneme.WebApi.csproj": {
+    "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\WebApi\\Deneme.WebApi\\Deneme.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\WebApi\\Deneme.WebApi\\Deneme.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\WebApi\\Deneme.WebApi\\Deneme.WebApi.csproj",
         "projectName": "Deneme.WebApi",
-        "projectPath": "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\WebApi\\Deneme.WebApi\\Deneme.WebApi.csproj",
+        "projectPath": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\WebApi\\Deneme.WebApi\\Deneme.WebApi.csproj",
         "packagesPath": "C:\\Users\\cicek\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\WebApi\\Deneme.WebApi\\obj\\",
+        "outputPath": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\WebApi\\Deneme.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -234,11 +301,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Application\\Deneme.Application.csproj": {
-                "projectPath": "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Application\\Deneme.Application.csproj"
+              "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\Deneme.Infrastrucute\\Deneme.Infrastrucute.csproj": {
+                "projectPath": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\Deneme.Infrastrucute\\Deneme.Infrastrucute.csproj"
               },
-              "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Infrastrucute\\Deneme.Persistence\\Deneme.Persistence.csproj": {
-                "projectPath": "c:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Infrastrucute\\Deneme.Persistence\\Deneme.Persistence.csproj"
+              "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Application\\Deneme.Application.csproj": {
+                "projectPath": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Core\\Deneme.Application\\Deneme.Application.csproj"
+              },
+              "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Infrastrucute\\Deneme.Persistence\\Deneme.Persistence.csproj": {
+                "projectPath": "C:\\Users\\cicek\\Desktop\\ferhat\\helloWorld\\Ortak\\Deneme\\src\\Infrastrucute\\Deneme.Persistence\\Deneme.Persistence.csproj"
               }
             }
           }

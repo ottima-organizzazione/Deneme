@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "Deneme.Application/1.0.0": {
+        "dependencies": {
+          "Deneme.Domain": "1.0.0"
+        },
         "runtime": {
           "Deneme.Application.dll": {}
+        }
+      },
+      "Deneme.Domain/1.0.0": {
+        "runtime": {
+          "Deneme.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Deneme.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Deneme.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

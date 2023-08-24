@@ -9,6 +9,7 @@
       "Deneme.WebApi/1.0.0": {
         "dependencies": {
           "Deneme.Application": "1.0.0",
+          "Deneme.Infrastrucute": "1.0.0",
           "Deneme.Persistence": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "7.0.10",
           "Swashbuckle.AspNetCore": "6.5.0"
@@ -313,6 +314,9 @@
         }
       },
       "Deneme.Application/1.0.0": {
+        "dependencies": {
+          "Deneme.Domain": "1.0.0"
+        },
         "runtime": {
           "Deneme.Application.dll": {}
         }
@@ -320,6 +324,15 @@
       "Deneme.Domain/1.0.0": {
         "runtime": {
           "Deneme.Domain.dll": {}
+        }
+      },
+      "Deneme.Infrastrucute/1.0.0": {
+        "dependencies": {
+          "Deneme.Domain": "1.0.0",
+          "Deneme.Persistence": "1.0.0"
+        },
+        "runtime": {
+          "Deneme.Infrastrucute.dll": {}
         }
       },
       "Deneme.Persistence/1.0.0": {
@@ -550,6 +563,11 @@
       "sha512": ""
     },
     "Deneme.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Deneme.Infrastrucute/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
